@@ -113,5 +113,14 @@ namespace Passwarder
             psc.ShowDialog();
             this.Show();
         }
+
+        private void Randpass_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Pass_random psr = new Pass_random();
+            psr.Numberget(Numberb.ToString());
+            psr.ShowDialog();
+            this.Show();
+        }
     }
 }

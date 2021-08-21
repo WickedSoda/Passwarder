@@ -90,6 +90,12 @@
     <Compile Include="Pass_check.Designer.cs">
       <DependentUpon>Pass_check.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pass_random.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pass_random.Designer.cs">
+      <DependentUpon>Pass_random.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Credentials.resx">
@@ -103,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pass_check.resx">
       <DependentUpon>Pass_check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pass_random.resx">
+      <DependentUpon>Pass_random.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

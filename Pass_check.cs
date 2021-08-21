@@ -604,5 +604,18 @@ namespace Passwarder
                 sqlcon.Close();
             }
         }
+
+        private void Closebtn_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("This will close down the whole application. Are you sure?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Environment.Exit(0);
+            }
+        }
+
+        private void Minibtn_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

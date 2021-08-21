@@ -95,6 +95,7 @@ namespace Passwarder
             this.Minibtn.TabIndex = 4;
             this.Minibtn.Text = "_";
             this.Minibtn.UseVisualStyleBackColor = false;
+            this.Minibtn.Click += new System.EventHandler(this.Minibtn_Click);
             // 
             // Closebtn
             // 
@@ -108,6 +109,7 @@ namespace Passwarder
             this.Closebtn.TabIndex = 3;
             this.Closebtn.Text = "X";
             this.Closebtn.UseVisualStyleBackColor = false;
+            this.Closebtn.Click += new System.EventHandler(this.Closebtn_Click);
             // 
             // Backbtn
             // 

@@ -169,6 +169,7 @@ namespace Passwarder
             this.Randpass.TabIndex = 3;
             this.Randpass.Text = "Random Password";
             this.Randpass.UseVisualStyleBackColor = true;
+            this.Randpass.Click += new System.EventHandler(this.Randpass_Click);
             // 
             // Checkpass
             // 
